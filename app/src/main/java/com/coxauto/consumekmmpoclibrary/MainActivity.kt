@@ -43,16 +43,3 @@ class MainActivity : ComponentActivity() {
         startActivity(Intent(this, LibraryMainActivity::class.java))
     }
 }
-
-@Composable
-fun Greeting(name: String) {
-    Text(text = "Hello $name!")
-}
-
-@Preview(showBackground = true)
-@Composable
-fun DefaultPreview() {
-    ConsumekmmpoclibraryTheme {
-        Greeting("Android")
-    }
-}
